@@ -1,0 +1,37 @@
+.card {
+  border: 1px solid #f3f3f3;
+  padding: 20px;
+  width: 300px;
+  border-radius: 40px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.2s ease-in-out, transform 0.2s ease-in-out;
+
+  &:hover {
+    box-shadow: 0px 20px 35px rgba(0, 0, 0, 0.06);
+    transform: translateY(-5px);
+    cursor: pointer;
+  }
+
+  &__header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 8px;
+
+    span {
+      color: #b6b6b6;
+    }
+  }
+}
+
+.bottom_line {
+  text-decoration: underline #b6b6b6;
+}

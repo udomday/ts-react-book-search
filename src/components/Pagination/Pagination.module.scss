@@ -1,0 +1,23 @@
+.button {
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 30%;
+  height: 50px;
+  background-color: #9dd458;
+  border: none;
+  border-radius: 18px;
+  transition: all 0.5s ease-in-out;
+
+  &:hover {
+    background-color: #a6e35b;
+  }
+
+  span {
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+  }
+}
